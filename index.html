@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Moog's Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-gray-900 text-gray-100">
+    <main class="max-w-[1024px] mx-auto">
+      <h1 class="text-center text-6xl font-black leading-relaxed tracking-wider">Spending too much time trying to understand the pseudocode in Ultrakill and being a nerd</h1>
+      <h2>Required Reading/Wikipedia Skimming:</h2>
+      <ul>
+        <li>
+          <strong>The Emerald Tablet</strong> by <i>Hermes Trismegistus</i>
+          <a
+            href="https://en.wikipedia.org/wiki/Emerald_Tablet"
+            target="_blank"
+          >
+            <svg version="2.0" class="icon-inline"><use href="#exlink" /></svg>
+          </a>
+        </li>
+        <li>
+          <strong>Meteorlogica: Book III</strong> by <i>Aristotle</i>
+          <a
+            href="https://classics.mit.edu/Aristotle/meteorology.3.iii.html"
+            target="_blank"
+          >
+            <svg version="2.0" class="icon-inline"><use href="#exlink" /></svg>
+          </a>
+        </li>
+        <li>
+          <strong>Theory of Forms</strong> by <i>Plato</i>
+          <a
+            href="https://people.uncw.edu/schmidt/201Stuff/Fall%202015/Ch%203%20Plato%20and%20Art%20of%20Living/3.4%20Plato%20Phaedo%20Theory%20of%20the%20Forms.pdf"
+            target="_blank"
+          >
+            <svg version="2.0" class="icon-inline"><use href="#exlink" /></svg>
+          </a>
+        </li>
+        <li>
+          <strong>Opus Paramirum</strong> by <i>Paracelsus</i>
+          <a
+            href="https://www.thoughtco.com/tria-prima-three-primes-of-alchemy-603699"
+            target="_blank"
+          >
+            <svg version="2.0" class="icon-inline"><use href="#exlink" /></svg>
+          </a>
+        </li>
+      </ul>
+
+      <h2>Stuff that Everybody Knows:</h2>
+
+      <pre>#<span style="color: rgb(255, 160, 122); font-weight: 400;">INCLUDE</span> { above, so } <span style="color: rgb(255, 160, 122); font-weight: 400;">FROM</span> <span style="color: rgb(171, 227, 56); font-weight: 400;">"dHJpc21lZ2lzdHVz"</span>;      </pre>
+      <p class="mb-10">Base64 decode to <strong>"trismegistus"</strong></p>
+      <pre>#<span style="color: rgb(255, 160, 122); font-weight: 400;">INCLUDE</span> { permutation, transmutation, exhalation } <span style="color: rgb(255, 160, 122); font-weight: 400;">FROM</span> <span style="color: rgb(171, 227, 56); font-weight: 400;">"cHJpbmNpcGxl"</span>;    </pre>
+      <p class="mb-10">Base64 decode to <strong>"principle"</strong></p>
+      <pre>#<span style="color: rgb(255, 160, 122); font-weight: 400;">INCLUDE</span> { blood, formal_blood } <span style="color: rgb(255, 160, 122); font-weight: 400;">FROM</span> <span style="color: rgb(171, 227, 56); font-weight: 400;">"d29tYg=="</span>;    </pre>
+      <p class="mb-10">Base64 decode to <strong>"womb"</strong></p>
+      <p>
+        The code hidden on the main menu is pseudocode, but written by Heckteck
+        so it is probably logical in it's function and operator use. Ultrakill
+        is made in Unity, and Unity's primary language is C# so this is probably
+        also C# based or at least C#-ish pseudocode with some creative
+        liberties.
+      </p>
+
+      <h2>The Libraries</h2>
+      <p>
+        When we write code, it is possible to import code from other files,
+        usually because it's a file full of useful functions that we want to use
+        multiple times but only write once, we call these libraries. You can
+        import a whole library <strong>or</strong> by uses braces (These things
+        ->{ }) you can pick which functions you want to pull out of the library.
+        Naturally the decoded library name that we import from is a clue as to
+        the contextual use of the functions listed.
+      </p>
+
+      <h3>above &amp; so</h3>
+      <p>
+        The Library name <strong>Trismegistus</strong> points us to Hermes
+        Trigsmestus the father of
+        <a href="https://en.wikipedia.org/wiki/Hermeticism" target="_blank"
+          >Hermeticism</a
+        >
+        and what would eventually evolve into Alchemy. one of his most prolific
+        works is the Emerald Tablet, which besides declaring his rules of the
+        universe is the origin of the phrase <i>"As Above So Below".</i>
+      </p>
+      <pre><span style="color: rgb(220, 198, 224); font-weight: 400;">void</span>* below = x =&gt; compose(so, () =&gt; above)(x);</pre>
+      <p>
+        The compose() function in a lot of languages takes multiple functions
+        glues them all toegether and returns them as a single function that does
+        all the functions in order. So this line is creating a function called
+        below that takes an argument called x then apparently making it the same
+        as whatever above is. So surprise surprise. <i>"As above, so below"</i>.
+        Or for the purposes of ultrakill
+        <i>"That which is in heaven, is also in hell"</i>This will be important
+        later.
+      </p>
+
+      <h3>permutation, transmutation &amp; exhalation</h3>
+      <p>
+        The Library name <strong>principle</strong> along with one of the
+        functions being transmutation points us towards the processes of
+        alchemy, specifically the 3 principles of alchemy are
+        <strong>Salt</strong>, <strong>Sulfur</strong> and
+        <strong>Mercury</strong>. Alchemy changed a lot over the centuries and
+        the theories evolved but by the 16th century it was put forward by an
+        alchemist called Paracelsus that all matter in the world consisted of
+        these 3 principles, the <i>tria prima</i>, in different ratios. The
+        principles have innate properties that will manifest in matter based on
+        the ratio of principles in said matter.
+      </p>
+
+      <ul>
+        <li>
+          <strong>Sulfur</strong> is hot and dry, It is evaporation and
+          expansion. It's symbol is <span class="!text-2xl">&#128781;</span>
+        </li>
+        <li>
+          <strong>Mercury</strong> is cold and wet. It is fusibility and
+          volatility. It's symbol is <span class="!text-2xl">&#9791;</span>
+        </li>
+        <li>
+          <strong>Salt</strong> is hard and inert. It is stability and
+          structure. It's symbol is <span class="!text-2xl"> &#128788;</span>
+        </li>
+      </ul>
+      <p>
+        This manifests in games with the new look skull keys. The skulls come in
+        red, blue and now white and now carry alchemical symbols. This may be a
+        connection to the menu pseudocode but this hasn't been confirmed and
+        regardless is at least in part to make the game more accessible for
+        colorblind people.
+      </p>
+
+      <div class="flex justify-evenly my-10">
+        <div class="w-80">
+          <img
+            src="./assets/skullr.png"
+            class="block rounded border-4 border-solid border-gray-400 mx-auto mb-8"
+          />
+          <p>
+            The red skull is <strong>sulfur</strong>. It's altar is a triangle
+            and when you put a red skull on it, it heats up hot coals and begins
+            to sizzle.
+          </p>
+        </div>
+        <div class="w-80">
+          <img
+            src="./assets/skullb.png"
+            class="block rounded border-4 border-solid border-gray-400 mx-auto mb-8"
+          />
+          <p>
+            The blue skull is <strong>mercury</strong>. It's altar is a is round
+            and when you put a blue skull on it, it fills with fluid.
+          </p>
+        </div>
+        <div class="w-80">
+          <img
+            src="./assets/skullw.png"
+            class="block rounded border-4 border-solid border-gray-400 mx-auto mb-8"
+          />
+          <p>
+            The white skull is <strong>salt</strong>. It's altar is a is
+            hexagonal with a line through it. There have been no gettable
+            instances of the skull in the game but since the update it has been
+            added all over the place as parts of level decoration and there are
+            files in the games assets that support them working as the other
+            keys.
+          </p>
+        </div>
+      </div>
+      <p>
+        So why are we pulling functions from a library named
+        <strong>princple</strong> if these aren't the princples. Because so far
+        we have just been importing functions. So they aren't the principles,
+        they are things we can do to the principles.
+      </p>
+      <ul>
+        <li>
+          <strong>Transmutation</strong> is the alchemical term for one matter
+          being turned into another matter through manipulation, burning,
+          boiling, washing with acids etc. This one is easy. Transmutation and
+          alchemy go hand in hand. <br />
+          <span class="text-center block font-black mb-6"
+            >This is the function for changing a substance.</span
+          >
+        </li>
+        <li>
+          <strong>Exhalation</strong> is a little more obscure. As said before,
+          Alchemy and it's terms and theories evolved over thousands of years.
+          Parcelsus's <i>tria prima</i> idea was built on the work of centuries.
+          Long before, a greek philosopher called Aristotle published writings
+          on his explanations for why the world was the way it was. The writings
+          spanned multiple books, collectively called
+          <strong>Meteorlogica</strong>. He covered all kinds of things but for
+          our purposes we are interested in book 3.
+          <blockquote class="w-10/12 mx-auto my-8">
+            <p class="italic">
+              We maintain that there are two exhalations, one vaporous the other
+              smoky, and there correspond two kinds of bodies that originate in
+              the earth, 'fossiles' and metals. The heat of the dry exhalation
+              is the cause of all 'fossiles'[...] The vaporous exhalation is the
+              cause of all metals [...] Their dryness compresses it, and it
+              congeals just as dew or hoar-frost does when it has been separated
+              off, though in the present case the metals are generated before
+              that segregation occurs.
+            </p>
+            <span class="float-right"> ~ Aristotle</span>
+          </blockquote>
+          <p class="italic py-8">What?</p>
+          <p>
+            You may notice here 3 interesting terms used. Exhalation, vapourous
+            and smoky. Simply put, Aristotle refers to exhalations multiples
+            times whenever he talks about the movement of air. He uses it for
+            wind, but also the movement generated by heat rising. Alchemists
+            over the years to come would interpret his writings as claiming that
+            all metals and minerals in the earth are caused by exhalations from
+            the earth the exhalations are either sulfurous smokes or mercurial
+            vapours and their combinations formed everything they found in the
+            ground from gold to granite.
+          </p>
+          <span class="text-center block font-black mb-6"
+            >This is the function for acquiring a substance.</span
+          >
+        </li>
+        <li>
+          <strong>Permutation</strong> is not strictly an alchemical action.
+          Permutation is a mathematical term that takes a set of items (say for
+          example the numbers 1, 2, 3 and 4) and then figures out how many ways
+          that set can be organised in a unique order. Permutation is where the
+          alchemical touches the digital, if this code is to perform some form
+          of alchemy it needs to be automated, permutations gives the code
+          multiple combinations of matter to mess with.
+        </li>
+        <br />
+        <span class="text-center block font-black mb-6"
+          >This is the function for itterating a substance.</span
+        >
+      </ul>
+      <h3>blood &amp; formal_blood</h3>
+      <p>
+        Blood plays a large part in ultrakill's world, it is the source of all
+        life, even if you can move, speak and think, if you do not have blood,
+        you are not alive. Not everything that has blood is alive, but
+        everything that is alive has blood. It appears that the womb here is
+        literal. A container from which life can spring, maybe it's some
+        horrific machine or a weird relic, cool to think about. But why are
+        there two things? Why is blood different than formal_blood? To explore
+        this we will begin to look at some of the other functions that we
+        skipped earlier.
+      </p>
+
+      <pre><span style="color: rgb(220, 198, 224); font-weight: 400;">void</span>* reify = partial_apply(below, transmutation);
+<span style="color: rgb(220, 198, 224); font-weight: 400;">void</span>* deify = <span style="color: rgb(245, 171, 53); font-weight: 400;">#MACRO_INVERT(x) partial_apply(reify, x);</span>
+
+<span style="color: rgb(248, 248, 242); font-weight: 400;">typedef <span style="color: rgb(0, 224, 224); font-weight: 400;">matter</span>(<span style="color: rgb(245, 171, 53); font-weight: 400;">t_form</span>)</span> = <span style="color: rgb(245, 171, 53); font-weight: 400;">#DERIVE reify(t_form);</span></pre>
+      <p>
+        These functions can be initially confusing, and can if misinterpreted
+        lead you down the wrong path. Deify does not technically reference the
+        divine, formal_blood is not formal in the way a 3 piece suit is formal.
+        All this code refers to the work of <strong>Plato</strong> and his
+        <strong>Theory of Forms</strong>
+      </p>
+      <p class="italic py-8">Again, what?</p>
+      <p>
+        Plato's theory of forms was one of the early attempts to broker concepts
+        of what reality even is. The theory of forms is big and complicated, but
+        for the sake of this mystery we only need to know 2 things. Two of the
+        main forms that anything can be is the <i>ideal form</i> and the
+        <i>platonic form</i>. Put your thinking caps on.
+      </p>
+      <p>
+        An ideal form is something that isn't physical, you cannot hold it,
+        create it, destroy it etc. but you know what it is. Some examples of
+        ideal forms are beauty, mathematics, wisdom, violence. You can look at
+        multiple beautiful objects and each object may be utterly different from
+        the last but they all possess the form of beauty.
+      </p>
+      <p>
+        A platonic form is easier. A platonic form could be an object. It could
+        be physical, it could be created it could be destroyed. A hat is a
+        platonic form, so is a planet and a gun. No platonic forms exist because
+        our universe is too chaotic for anything to be created at that level of
+        purity, but what matters is that it technically could, but it never
+        will.
+      </p>
+      <p>
+        With this context when we look at blood and formal_blood this now makes
+        more sense. Blood is blood, the red goopy liquid we all love and keep in
+        our bodies for fun and profit. Formal blood is the perfect form of blood
+        beyond the physical. It is blood outside of limitations of space and
+        time it is the most blood that blood can be.
+      </p>
+      <p>
+        But forms don't do anything, they just exist, so now we need to do
+        something with them. This is where reify and deify come in.
+      </p>
+      <ul>
+        <li>
+          <strong>reify</strong> takes something, mixes it with substances from
+          within hell, commonly referred to as "hell matter" in game lore and
+          applies alchemical transmutation to them to make them real within the
+          physical world. The world reify is actually used in the theory of
+          forms as something you cannot do. To reify something is to take the
+          abstract, perfect form of a thing and treat it like it's a real
+          physical object which as we've established you cannot do to forms.
+          They cannot exist in our universe. Yet here we are reifying forms of
+          things through alchemy. This is confirmed by the typedef (type
+          definition. By defining a type you are saying "this is a type of
+          thing, all things of the same type will follow the same rules and
+          behave the same way.") line. It defines matter. Matter as in
+          everything our physical reality is made out of every atom and molecule
+          of our universe. #DERIVE usually means to basically do whatever you're
+          deriving to the type you're defining. So if you're going to do stuff
+          to matter with this code, it must be made real through transmutation.
+        </li>
+        <li>
+          <strong>deify</strong> does not refer to deity, or at least not
+          literally. The function in simple terms does the opposite of reify.
+          But whereas reify only applies to below, ergo all that is in hell.
+          Deify applies to all that is in heaven AND hell (scroll up to the
+          Trismegistus bit about as above so below) and casts it as an ideal
+          form outside of reality.
+        </li>
+      </ul>
+      <h2>Ready for Heresy</h2>
+      <p>
+        So now we have gone through and investigated the first part of the
+        pseudocode. This code gives us a source of substances with which to
+        perform alchemy. It gives us tools to do alchemy to those substances,
+        and it it gives us blood that we're going to do something to. Probably
+        something horrible.
+      </p>
+    </main>
+    <svg
+      class="w-3 inline-block"
+      version="2.0"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+    >
+      <defs>
+        <symbol id="exlink" viewBox="0 0 122.6 122.88">
+          <path
+            class="fill-gray-100"
+            d="M110.6,72.58c0-3.19,2.59-5.78,5.78-5.78c3.19,0,5.78,2.59,5.78,5.78v33.19c0,4.71-1.92,8.99-5.02,12.09 c-3.1,3.1-7.38,5.02-12.09,5.02H17.11c-4.71,0-8.99-1.92-12.09-5.02c-3.1-3.1-5.02-7.38-5.02-12.09V17.19 C0,12.48,1.92,8.2,5.02,5.1C8.12,2,12.4,0.08,17.11,0.08h32.98c3.19,0,5.78,2.59,5.78,5.78c0,3.19-2.59,5.78-5.78,5.78H17.11 c-1.52,0-2.9,0.63-3.91,1.63c-1.01,1.01-1.63,2.39-1.63,3.91v88.58c0,1.52,0.63,2.9,1.63,3.91c1.01,1.01,2.39,1.63,3.91,1.63h87.95 c1.52,0,2.9-0.63,3.91-1.63s1.63-2.39,1.63-3.91V72.58L110.6,72.58z M112.42,17.46L54.01,76.6c-2.23,2.27-5.89,2.3-8.16,0.07 c-2.27-2.23-2.3-5.89-0.07-8.16l56.16-56.87H78.56c-3.19,0-5.78-2.59-5.78-5.78c0-3.19,2.59-5.78,5.78-5.78h26.5 c5.12,0,11.72-0.87,15.65,3.1c2.48,2.51,1.93,22.52,1.61,34.11c-0.08,3-0.15,5.29-0.15,6.93c0,3.19-2.59,5.78-5.78,5.78 c-3.19,0-5.78-2.59-5.78-5.78c0-0.31,0.08-3.32,0.19-7.24C110.96,30.94,111.93,22.94,112.42,17.46L112.42,17.46z"
+          />
+        </symbol>
+      </defs>
+    </svg>
+  </body>
+</html>
